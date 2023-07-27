@@ -1,7 +1,4 @@
-﻿// testando o commit e push
-
-
-#include "cuda_runtime.h"
+﻿#include "cuda_runtime.h"
 #include "cuda.h"
 #include <stdio.h>
 #include "device_launch_parameters.h"

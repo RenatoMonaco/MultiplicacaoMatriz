@@ -6,6 +6,8 @@
 
 float* a, * b, * c; //host variables
 
+//Incluindo modificação na branch
+
 __global__ void MatrixMulKernel(float* M, float* N, float* P, int Width) {
     
     //Calcula o indice da linha do elemento P e M

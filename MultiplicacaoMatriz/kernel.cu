@@ -6,7 +6,7 @@
 
 float* a, * b, * c; //host variables
 
-//Agora fazendo uma segunda alteração na branch
+//Continuando as mudanças após a mescla com a branch 1
 
 __global__ void MatrixMulKernel(float* M, float* N, float* P, int Width) {
     
